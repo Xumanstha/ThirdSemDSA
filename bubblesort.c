@@ -13,12 +13,9 @@ for(int i=0;i<n;i++)
    {
     if(num[j]>num[j+1])
      {
-        // p1=&num[i];
-        // p2=&num[j];
+        
         swap(num+j,num+(j+1));
-    //   int temp=num[i];
-    //   num[i]=num[j];
-    //   num[j]=temp;
+  
      }
    }
 
